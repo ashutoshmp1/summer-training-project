@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Weather detector</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open Sans:300,400,700&amp;display=swap"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <!--<div class="api">
+      <div class="container">
+    <a target="_blank" href="https://home.openweathermap.org/users/sign_up">Join here!</a>
+  </div>
+    </div>-->
+    <section class="top-banner">
+      <div class="container">
+        <h5 class="heading">Weather Detector</h5>
+        <form>
+          <input type="text" placeholder="Enter the city name" autofocus />
+          <button type="submit">SEARCH</button>
+          <span class="msg"></span>
+        </form>
+      </div>
+    </section>
+    <section class="ajax-section">
+      <div class="container">
+        <ul class="cities"></ul>
+      </div>
+    </section>
+    <!-- <footer class="page-footer">
+      <div class="container">
+        <small
+          >Made with <span>❤</span> by<a
+            href="https://www.linkedin.com/in/iamashutosh/"
+            target="_blank"
+          >
+            Ashutosh Mohapatra</a
+          >
+        </small>
+      </div>
+    </footer> -->
+    <!-- partial -->
+    <script src="./script.js"></script>
+  </body>
+</html>
